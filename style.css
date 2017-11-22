@@ -1,23 +1,18 @@
 body{
-}
-nav{
-  height: auto;
-  margin: auto;
+  background-color: #C2CEE8;
 }
 
-nav ul li{
+nav table{
+  padding: 20px;
   display: inline;
-  padding-right: 5%;
-  padding-left: 5%;
-  margin-left: 3%;
-  margin-right: 3%;
   list-style-type: none;
+  text-align: center;
+  margin-left: 33%;
 }
 
 a{
   text-decoration: none;
-  color: white;
-  background-color: #FF6345;
+  color: red;
   padding: 1px;
   border-radius: 5px;
 }
@@ -26,19 +21,29 @@ h2{
   text-align: center;
   background-color: #E2FFE8;
   padding: 20px;
+  font-family: 'Comfortaa', cursive;
 }
 
-p{
+article p{
   text-align: center;
   background-color: #FFD5F6;
   padding: 20px;
+  font-family: 'Kalam', cursive;
 }
 
-h3{
+table td{
+  text-align: center;
+  background-color: #FFD5F6;
+  padding: 20px;
+  font-family: 'Kalam', cursive;
+  border-radius: 10px;
+
+}
+
+.question{
   background-color: #E8E2C2;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  font-family: 'Comfortaa', cursive;
   border-radius: 10px;
   padding: 10px;
 }
