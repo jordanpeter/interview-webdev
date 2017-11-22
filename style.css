@@ -1,3 +1,44 @@
 body{
-  /* background: url("img/background.jpeg"); */
+}
+nav{
+  height: auto;
+  margin: auto;
+}
+
+nav ul li{
+  display: inline;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  background-color: #FF6345;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+h2{
+  text-align: center;
+  background-color: #E2FFE8;
+  padding: 20px;
+}
+
+p{
+  text-align: center;
+  background-color: #FFD5F6;
+  padding: 20px;
+}
+
+h3{
+  background-color: #E8E2C2;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
 }
