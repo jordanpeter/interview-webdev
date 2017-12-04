@@ -33,14 +33,10 @@ a:hover{
   color: red;
 }
 
-a:visited{
-  color: green;
-}
-
 h2{
   text-align: center;
   background-color: #E2FFE8;
-  padding: 20px;
+  padding: 10px;
   font-family: 'Comfortaa', cursive;
 }
 
@@ -50,6 +46,12 @@ article p{
   padding: 20px;
   font-family: 'Kalam', cursive;
   max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+table{
+  max-width: 1000px;
   margin: auto;
 }
 
